@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
 
-const token = require('./token.json')
+// const token = require('./token.json')
 
 client.on('ready', () => {
     console.log('Thewsomeestgamerbot is now Online');
@@ -33,4 +33,4 @@ client.on('message', async (message) => {
         return message.channel.send('https://www.youtube.com/channel/UCnWjs3WqMz2vRKSGIDpcMgQ')
     }
 });
-client.login(token.token);
+client.login(process.env.TOKEN);
