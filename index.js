@@ -37,10 +37,13 @@ client.on('message', async (message) => {
         return message.channel.send('!commands !hello !partner !youtube')
         if(command == 'commands') {
             return message.channel.send('!commands !hello !partner !youtube')
-        }
-
-        if(command == 'ticket') {
-            return message.channel.send('Messege thewsomeestgamer for more infoermation on that!')
+            {
+                
+            }
+            if(command =='ticket')
+            MessageEvent.channel.send('Work in progress please wait under worked on wore :D if you need anymore infoermation messege thewsomeestgamer!')
+            
+            
         }
     }
 });[
