@@ -35,6 +35,14 @@ client.on('message', async (message) => {
     
     if(command == 'commands') {
         return message.channel.send('!commands !hello !partner !youtube')
+        if(command == 'commands') {
+            return message.channel.send('!commands !hello !partner !youtube')
+            
+            
+        }
     }
-});
+});[
+    
+]
+
 client.login(process.env.TOKEN);
