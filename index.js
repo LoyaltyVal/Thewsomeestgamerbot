@@ -38,8 +38,11 @@ client.on('message', async (message) => {
         if(command == 'commands') {
             return message.channel.send('!commands !hello !partner !youtube')
         }
-        if(command == 'ticket') {
-            return message.channel.send('Msg thewsomeestgamer for more infoermation!')
+    
+        if(command == 'commands') {
+            return message.channel.send('ticket')
+            if(command == 'commands') {
+                return message.channel.send('Dm Thewsomeestgamer for more info on that!')
             
             
         }
