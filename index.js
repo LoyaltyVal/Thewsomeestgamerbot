@@ -37,6 +37,9 @@ client.on('message', async (message) => {
         return message.channel.send('!commands !hello !partner !youtube')
         if(command == 'commands') {
             return message.channel.send('!commands !hello !partner !youtube')
+        }
+        if(command == 'ticket') {
+            return message.channel.send('Msg thewsomeestgamer for more infoermation!')
             
             
         }
